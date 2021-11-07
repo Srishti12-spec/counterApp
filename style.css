@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.container{
+    /* border: 1px solid black; */
+    width: 95%;
+    height:100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counter{
+border: 5px solid black;
+width: 600px;
+height: 350px;
+margin: auto;
+padding: 25px;
+text-align: center;
+background: #fefefe;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.counter h1{
+    font-size: 2rem;
+}
+#count{
+    font-size: 9rem;
+}
+button {
+    padding: 10px;
+    border: 5px solid cyan;
+    background-color: cyan;
+    border-radius: 5px;
+}
